@@ -1,0 +1,129 @@
+/* Reset some default styles */
+* {
+ margin: 0;
+padding: 0;
+ box-sizing: border-box;
+}
+    
+/* Base style */
+    body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background-color: #fff8f2;
+    color: #333;
+line-height: 1.6;
+ }
+    
+.container {
+ max-width: 1100px;
+ margin: 20px auto;
+padding: 0 20px;
+    }
+    
+    /* Header and Navigation */
+.header {
+background-color: #f76c6c;
+ color: white;
+ padding: 20px 0;
+ text-align: center;
+ box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    
+.navbar {
+margin-top: 10px;
+    }
+    
+    .navbar a {
+    color: white;
+    text-decoration: none;
+ margin: 0 15px;
+ font-weight: bold;
+transition: color 0.3s ease;
+ }
+    
+.navbar a:hover,
+.navbar a.active {
+ color: #ffe0d0;
+}
+    
+ /* Headings */
+    h1, h2, h3 {
+ color: #d64f4f;
+ margin-bottom: 15px;
+ }
+    
+/* Paragraphs and lists */
+p {
+ margin-bottom: 15px;
+}
+    
+ul {
+ list-style-type: square;
+ margin-left: 20px;
+ margin-bottom: 15px;
+}
+    
+    /* Forms */
+    .contact-form {
+background-color: #fff0ec;
+padding: 20px;
+ border-radius: 10px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+     margin-top: 20px;
+}
+.contact-form label {
+display: block;
+ margin-bottom: 5px;
+ font-weight: bold;
+}
+    
+.contact-form input,
+.contact-form textarea {
+ width: 100%;
+ padding: 10px;
+ margin-bottom: 15px;
+ border: 1px solid #ddd;
+ border-radius: 5px;
+ font-size: 16px;
+}
+    
+.contact-form button {
+ background-color: #f76c6c;
+ color: white;
+ padding: 10px 20px;
+ border: none;
+     border-radius: 6px;
+font-size: 16px;
+cursor: pointer;
+ transition: background-color 0.3s ease;
+}
+    
+    .contact-form button:hover {
+background-color: #d64f4f;
+}
+    
+    /* Map */
+.map-container {
+ margin-top: 30px;
+ }
+    
+    /* Footer */
+.footer {
+background-color: #e90b0b;
+color: rgb(255, 255, 255);
+text-align: center;
+padding: 15px 0;
+margin-top: 40px;
+}
+    
+ /* Products/Services Layout */
+.product, .service {
+background-color: #fff0ec;
+padding: 15px;
+ margin: 15px 0;
+border-radius: 10px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    
+    .product h3, .service h3 {
+margin-bottom: 10px;
+    }
